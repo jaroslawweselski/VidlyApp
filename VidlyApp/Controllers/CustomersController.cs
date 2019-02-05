@@ -22,7 +22,7 @@ namespace VidlyApp.Controllers
         {
             _context.Dispose();
         }
-
+        
         public ActionResult Index()
         {
             return View();
