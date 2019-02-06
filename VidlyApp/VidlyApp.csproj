@@ -238,6 +238,10 @@
     <Compile Include="Migrations\201902060910526_SeedUsers.Designer.cs">
       <DependentUpon>201902060910526_SeedUsers.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201902061453102_Rental.cs" />
+    <Compile Include="Migrations\201902061453102_Rental.Designer.cs">
+      <DependentUpon>201902061453102_Rental.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -523,6 +527,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201902060910526_SeedUsers.resx">
       <DependentUpon>201902060910526_SeedUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902061453102_Rental.resx">
+      <DependentUpon>201902061453102_Rental.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
