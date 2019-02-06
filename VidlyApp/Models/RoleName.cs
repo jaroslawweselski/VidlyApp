@@ -7,6 +7,6 @@ namespace VidlyApp.Models
 {
     public static class RoleName
     {
-        public const string CanManagEMovies = "CanManageMovies";
+        public const string CanManageMovies = "CanManageMovies";
     }
 }
